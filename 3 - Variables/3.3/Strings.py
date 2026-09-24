@@ -1,10 +1,8 @@
-from operator import concat
-
-# # student string functions
+# student string functions
 # student = " I am a student"
 #
 # print(type(student))
-#print(student.index("a"))
+# print(student.index("a"))
 # print(student.count("a"))
 # print(student.find("stu"))
 # print(student.find("Stu"))
