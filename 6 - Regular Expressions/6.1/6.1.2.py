@@ -13,7 +13,7 @@ Contains only numbers:
 
 '''
 
-pattern = re.compile(r'\d')
+pattern = re.compile(r"\d{1,2}")
 matches = pattern.findall(my_numbers)
 
 for match in matches:

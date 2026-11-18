@@ -31,7 +31,14 @@ pattern = re.compile(r'\+\d{1,3}')
 matches = set(pattern.findall(my_numbers))
 
 if matches:
+    nums = list()
     for match in matches:
-        print(match + " " + str(type(match)))
+        num = match.split("+")
+        nums.append(int(num[1]))
+
+    nums.sort()
+
+    for num in nums:
+        print("+" + str(num) + " " + str(type(num)))
 else:
     print("Error")
